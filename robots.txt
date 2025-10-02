@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /api/
+Disallow: /search?
+Disallow: /?search=
+Disallow: /login
+Disallow: /register
+Disallow: /dashboard/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /cache/
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /*?*utm_*
+Disallow: /*?*ref=*
+
+Crawl-delay: 1
+
+Sitemap: https://Cursor HUB/sitemap.xml
